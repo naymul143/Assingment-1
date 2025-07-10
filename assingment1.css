@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+body {
+    margin: 0%;
+    padding: 0%;
+    gap: 0%;
+}
+
 .banner {
     background-image: url(Assets/Hero-bg.png);
     margin-top: 0%;
@@ -54,6 +60,9 @@ button a {
     border-radius: 10px;
     font-weight: bold;
     text-decoration: none;
+    align-content: center;
+    border-top: 0%;
+
 }
 
 .title {
