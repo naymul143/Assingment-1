@@ -80,4 +80,24 @@ button a {
 .middle-section {
     display: flex;
     justify-content: space-around;
+    margin-top: 116px;
+    padding: 141px;
+}
+
+.main {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+
+}
+
+.description {
+    font-size: 24px;
+    color: #252432;
+    width: 70%;
+}
+
+.second-image {
+    border-radius: 48px;
 }
