@@ -152,6 +152,7 @@ button a {
     color: #4E47FF;
     font-family: "Inter", sans-serif;
     margin-bottom: 0px;
+    /* align-items: center; */
 }
 
 .item-description {
@@ -197,4 +198,30 @@ textarea {
 .btn-style {
     width: 497px;
     height: 62px;
+}
+
+.footer-style {
+    text-align: center;
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.support a {
+    text-decoration: none;
+}
+
+.footer-bg {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.logo {
+    font-size: 100px;
+    font-weight: bold;
 }
