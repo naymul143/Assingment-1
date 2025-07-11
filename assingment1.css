@@ -13,9 +13,11 @@
 }
 
 body {
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
     gap: 0%;
+    background-color: aliceblue;
+
 }
 
 .banner {
@@ -68,7 +70,6 @@ button a {
     font-weight: bold;
     text-decoration: none;
     align-content: center;
-    border-top: 0%;
 
 }
 
@@ -84,12 +85,25 @@ button a {
 
 }
 
-.middle-section {
+.action-section {
     display: flex;
     justify-content: space-around;
     margin-top: 116px;
     margin-bottom: 100px;
     padding: 141px;
+}
+
+.middle-section-2 {
+    text-align: center;
+    gap: 20px;
+}
+
+.middle-section-bg {
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 71px;
 }
 
 .main {
@@ -103,11 +117,13 @@ button a {
 .description {
     font-size: 24px;
     color: #252432;
-    width: 70%;
+    text-align: center;
 }
 
 .second-image {
     border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 71px;
 }
 
 .user-quantity {
@@ -118,7 +134,7 @@ button a {
     color: #252432;
 }
 
-.users-quantity {
+.productive-user {
     background-color: rgba(99, 71, 255, 0.1);
     border-radius: 24px;
     margin: 150px;
@@ -143,4 +159,42 @@ button a {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0%;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 97px;
+    font-weight: bold;
+    padding: 15%
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 461px;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: #757575;
+    margin-bottom: 24px;
+    border: none;
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.form-style {
+    margin: 150px;
+    font-weight: bold;
+}
+
+.btn-style {
+    width: 497px;
+    height: 62px;
 }
